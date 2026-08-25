@@ -4,7 +4,9 @@ An end-to-end NLP pipeline that extracts actionable insights from ~30,000 unstru
 customer reviews — combining sentiment analysis, transformer benchmarking, and
 unsupervised topic modeling to identify what drives customer dissatisfaction.
 
-**[Live Dashboard](#)** 
+## Live Demo
+
+[🚀 Open Interactive Dashboard](https://nlpfinefoodinsights-3whn7wjamsd27j8uh8gmkh.streamlit.app/)
 
 ---
 
