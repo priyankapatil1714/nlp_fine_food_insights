@@ -9,9 +9,9 @@ st.set_page_config(page_title="NLP Insights:Amazon Fine Food Reviews", layout="w
 #Load data (all)
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:/Users/Priyanka/Datascience/NLP_projects/cleaned_data.csv")
-    topics = pd.read_csv("C:/Users/Priyanka/Datascience/NLP_projects/topics.csv")
-    topic_sentiment = pd.read_csv("C:/Users/Priyanka/Datascience/NLP_projects/topic_sentiment_insight.csv")
+    df = pd.read_csv("cleaned_data.csv")
+    topics = pd.read_csv("Topic.csv")
+    topic_sentiment = pd.read_csv("topic_sentiment_insight.csv")
 
     #Time column = Dataset has unix 'time' col
     df["date"] = pd.to_datetime(df["Time"], unit="s",errors="coerce")
