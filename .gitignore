@@ -1,0 +1,40 @@
+# Ignore original large dataset
+Reviews.csv
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# ML model files
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.safetensors
+
+# Hugging Face cache
+.cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
